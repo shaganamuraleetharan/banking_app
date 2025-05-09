@@ -1,4 +1,6 @@
 #customer_inputs
+#fdjwejivgfweigfwejukgfweui
+
 def customer_information():
     name=str (input("enter your name:"))
     address=input("enter your address")
