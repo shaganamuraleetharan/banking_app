@@ -6,26 +6,25 @@ def customer_information():
     user_id_password=input("enter user id password:")
     return[name,address,user_id,user_id_password]
 
-#def creat_customer():
-#    customer=customer_information()
-#    with open("customer.txt","a")as file:
-#    file.write("customer_name\t")
-#    file.write("customer_address")
-#    file.write("\n")
-#    file.write(f"{customer[0]}\t\t\t{customer[1]}\t")
-#    file.write("\n")
-#create_customer()
-
-#def create_users():
-#   customer=customer_information()
-#   with open("users.txt","a")as file:
-#   file.write("user_name\t")
-#   file.write("user_id_password")
-#   file.write("\n")
-#   file.write(f"{customer[2]}\t\t\t{customer[3]}\t")
-#   file.write"\n")
-#create_users()
-#with open(customer.txt","a")as customer_file,open("users.txt","a")as user_file:
+def creat_customer():
+    customer=customer_information()
+   with open("customer.txt","a")as file :
+   file.write("customer_name\t")
+    file.write("customer_address")
+    file.write("\n")
+    file.write(f"{customer[0]}\t\t\t{customer[1]}\t")
+    file.write("\n")
+create_customer()
+def create_users():
+   customer=customer_information()
+   with open("users.txt","a")as file:
+   file.write("user_name\t")
+   file.write("user_id_password")
+   file.write("\n")
+   file.write(f"{customer[2]}\t\t\t{customer[3]}\t")
+   file.write"\n"
+create_users()
+with open customer.txt","a")as customer_file,open("users.txt","a")as user_file:
 
 #deposit_money
 def deposit_money(account_id,balance,amount):
@@ -33,7 +32,7 @@ def deposit_money(account_id,balance,amount):
         print("invalid amount")
         return balance
     balance+=amount
-    print(f"deposited ${amount}.new balance is ${balance}.")
+    print("deposited ${amount}.new balance is ${balance}.")
     print("deposit successful.")
 
 #withdraw_money
@@ -41,13 +40,13 @@ def __init__(self,account_number,balance=0):
     self.account_number=account-account_number
     self.balance=balance
     def withdraw(balance,amount):
-    if amount<=balance:
-        print("withdraw amount must be positive")
-    elif amount >self.balance:
+        if amount<=balance:
+            print("withdraw amount must be positive")
+             elif amount >self. balance:
         print("insufficient funds.")
     else:
         self.balance-=amount
-        print(f"withdrawal sucessful")
+        print("withdrawal sucessful")
     def get_balance(self):
         return self.balance
     def get_transactions(self):
@@ -58,7 +57,7 @@ def_init_(self,account_number,balance=0)
     self.account_number=account_number
     self.balance=balance
 def check|_balance(self):
-    return f"current balance for account{self.account_number}:${self.balance:}"
+    return "current balance for account{self.account_number}:${self.balance:}"
 
 #transaction history
 def_init_("self,amount,transaction,description"class):
@@ -173,7 +172,7 @@ elif choice=="3":
 elif choice=="4":
     if account:
     else:
-        print(f"current balance:{account.get_balance()}")
+        print("current balance:{account.get_balance()}")
     else:
         print("check balance.")
 

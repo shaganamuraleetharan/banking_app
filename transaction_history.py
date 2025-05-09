@@ -24,13 +24,13 @@ def withdraw_money():
 try:
     amount=float(input("enter amount to withdraw:"))
     if amount<=0:
-        raise value error
+        raise value 
     if accounts[acc.number]["balance"]<amount:
             print("insufficient balance.")
             return
     accounts[acc.number]["balance"]<amount
     accounts[acc.number]["transactions"].append
-      {"type":"withdraw","amount":-amount,"date",datetime}
+    {"type":"withdraw","amount":-amount,"date",datetime}
       print("withdraw successfull. ")
     except value error:
         print("invalid amount.")
@@ -47,7 +47,7 @@ def transaction_history():
         return
         print("\ntransaction history:")
         for t in transaction:
-            print(f"{t[date]}|amount:(f"{amount})")
+            print({t[date]}|amount:({amount}))
     
 #main menu loop
 def main():
@@ -59,6 +59,25 @@ def main():
         print("4.check balance")
         print("5.transaction history")
         print("6.exit")
+    choice=input("enter your choice")
+    if choice=="1":
+        create_account()
+        elif choice=="2":
+            deposit_money()
+        elif choice=="3":
+            withdraw_money()
+        elif choice=="4"
+            check_balance()
+        elif choice=="5"
+            transaction_history()
+        elif choice=="6"
+            exiting programme()
+            break
+        else:
+            print("invalid process")
+        
+
+
 
 
 
