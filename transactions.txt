@@ -1,0 +1,11 @@
+1001|Account opened with Rs.2300.0
+1002|Account opened with Rs.2003.0
+1001|Deposited Rs.2300.0 on 2025-05-13 14:42:23.120113
+1003|Account opened with Rs.12000.0
+1003|Deposited Rs.12000.0 on 2025-05-13 14:45:22.325449
+1003|Withdrew Rs.12.0 on 2025-05-13 14:45:41.509816
+1004|Account opened with Rs.120000.0
+1004|Deposited Rs.12000.0 on 2025-05-13 14:53:32.749152
+1005|Account opened with Rs.5000.0
+1005|Deposited Rs.12000.0 on 2025-05-13 14:54:55.070396
+1005|Withdrew Rs.1000.0 on 2025-05-13 14:55:05.814001
